@@ -1,0 +1,45 @@
+pycache/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Dependency directories
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets and environment variables
+.env
+.env.*
+.secret
+
+# Testing files
+.coverage
+*.cover
+.hypothesis/
+.tox/
+pytest_cache/
+junit.xml
+nosetests.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
